@@ -1,191 +1,322 @@
-<!DOCTYPE HTML>
-<head>
-<meta charset="utf-8" />
- 
-<!--
- 
-    /// "Original" template made by awhe @ https://awhe.neocities.org/
- 
-    /// NOTE: Feel free to delete the above credits included in the code. I do not require credit, and I encourage copying from me as much as you'd like. As always: The internet is made for sharing, and so I'm happy to be able to share this with you!
- 
-    /// I was inspired to post this "template" due to a friend who was unsure about coding but wanted to make a website, and who also enjoyed the look of my current (10th Jun 2023) index page, so I became resolved to clean the code up and annotate it for further help! I'm not assuming that this code is "good" by any means, but it serves me well, and I hope that you can use it well too! Edit it, change it, destroy it to your hearts content.
- 
-    /// I'm bad at spelling. If you see any spelling errors, no you don't! (I'm sorry, even after checking, I still usually miss something.)
- 
-    ==============================================================
- 
-                    -USEFUL INFO-
- 
-    // margin: refers to the space AROUND an element.
-    // padding: refers to the space INSIDE an element.
-    // color: refers to TEXT COLOR.
-    // background: refers to the BACKGROUND COLOR of an element.
-    // favicon: refers to the tiny image that shows up on your website tab at the top.
-    // body: refers to the main structure of the site. think of the plain white screen before adding all your code, that's the body. 
- 
-    // https://www.w3schools.com/ (This site has all the help you need if you require more assistance.)
-    // https://codepen.io/ (This site allows live previews of your code, which can be helpful when you're changing parts and still learning.)
-    // https://awhe.neocities.org/links (Shameless self plug, but I've included many many links here regarding HTML (among other things!) that may prove useful.)
-    // https://blog.hubspot.com/website/web-safe-html-css-fonts (Displays "web safe fonts" which are fonts that'll adapt to any browser on any device.)
-    // https://www.w3schools.com/tags/ref_colornames.asp (Shows you the names of colors supported by all browsers!)
- 
-    ==============================================================
- 
-    /// Just a small reminder that:
-        - You can and you should copy from me if you'd like. I don't care. My url is: https://awhe.neocities.org/
-        - Credit is always optional, whatever you feel like.
-        - For a cleaner look, I recommend removing my text additions whenever you feel comfortable to.
-        - I recommend editing on a live preview, so you can see the immediate effects of any changes you make.
-        - Have fun! Add, change, edit, etc, whatever you want! The net is yours.
- 
--->
- 
-<title>YOUR SITE TITLE HERE</title> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/x-icon" href="/"> 
-</head>
- 
-<style>
-body{        
-    font-family:ms gothic;
-    font-size:18px;
-}
- 
-@font-face {
-    font-family:'synkopy';
-    src:url(Synkopy-Regular.otf);
-}
-    /* https://fontesk.com/synkopy-font/ - that's where i downloaded the above font! */
-    /* IF YOU DON'T WANT TO USE A CUSTOM FONT, FEEL FREE TO DELETE FROM HERE UP TO "@FONT-FACE" AND "P" */
- 
-p {
-    font-family:'synkopy'; 
-}
- 
-#container{
-    width:800px; 
-    margin:0 auto; 
-    text-align:center; 
-}
- 
-#main {
-    width:500px; 
-    margin:0 auto; 
-    text-align:justify; 
-    border:3px double black; 
-    max-height:40%; 
-    padding:3px 3px 3px 3px;
-    background: white;
-}
- 
-hr {
-    border:0;
-    height:1px;
-    background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
- 
-@keyframes wiggle{
-    from{
-    transform:scale(0.98)
-    }
-    50%{
-    transform:scale(1)
-    }
-    to{
-    transform:scale(0.98)
-    }
-}
- 
-#textlol {
-    font-size:50px;
-    text-decoration: none; 
-    transition: 0.4s; 
-}
- 
-#textlol:hover {
-    letter-spacing:5px;
-}
- 
-#links{
-    border:1px solid black; 
-    text-align:center;
-    padding:5px;
-    width:500px;
-    margin:0 auto;
-    background: white;
-}
- 
-#links ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
- 
-a{
-    color:#AA3039;
-}
- 
-a:hover{
-    color:#000000;
-}
- 
-</style>
- 
-<body>
- 
-<div id="container">
- 
-    <div id="textlol"><p>PAGE TITLE HERE</p></div>
- 
-<div id="links">
-    <ul>
-    <li><img src="/"> <a href="/">LINK 1</a></li>
-    <li><img src="/"> <a href="/">LINK 2</a></li>
-    <li><img src="/"> <a href="/">LINK 3</a></li>
-    <li><img src="/"> <a href="/">LINK 4</a></li>
-    <li><img src="/"> <a href="/">LINK 5</a></li>
-    </ul>
-</div> 
- 
-<div id="textlol"><h2 style="text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;color: white;font-size: 25px;animation: wiggle 1s ease-in-out infinite alternate">SUBTITLE GOES HERE</h2>
-</div>
- 
-<div id="main">
- 
-<table>
-    <tbody>
-        <tr>
-            <td style="padding-right:10px;">
-                <img src="https://hoarding.neocities.org/img/otherpix/med01.gif">
-            </td>
-            <td>
-                PUT SOME SITE INFO HERE !!!! whatever you want honestly, i included a very short snippet of what my site is about, but you can do whatever. maybe... your relevant/important personal info? like your name and age or something... i don't know, this is your site!
-                <br><br>
-                no credit to me necessary!
-                <hr>
-            </td>
-        </tr>
-    </tbody>
-</table>
- 
-    <p style="text-align:center;font-family: ms gothic;">this is generally where you main main content will go. let your imagination run wild and free :3 the net is yours.<br>
-    <center><a href="https://copyheart.org/manifesto/" target="_blank">♡ copying is an act of love. please copy. ♡</a></center><br>
-</div>
-<br>
- 
-<div id="links">
-    <ul>
-        <li><img src="/"> <a href="/">LINK 6</a></li>
-        <li><img src="/"> <a href="/">LINK 7</a></li>
-        <li><img src="/"> <a href="/">LINK 8</a></li>
-        <li><img src="/"> <a href="/">LINK 9</a></li>
-        <li><img src="/"> <a href="/">LINK 10</a></li>
-    </ul>                
+<div class="snipcss-I99vw">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-image">
+                <div class="inner"><img src="https://eggramen.neocities.org/bluesun.png"></div>
+            </div>
+            <div class="box">
+                <div class="inner">
+                    <p>Sidebar lorem ipsum dolor sit amet.</p>
+                    <p>This page uses the font Readex Pro from Google Fonts!</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="title">
+                <div class="box">
+                    <div class="inner">
+                        <h2>Welcome To My Website!</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <div class="box">
+                    <div class="inner">
+                        <ul>
+                            <li><a href="/testdirectory.html">Directory</a></li>
+                            <li><a href="busy_base2.html">Base Style</a></li>
+                            <li><a href="busy_base2_skin1.html">Skin 1</a></li>
+                            <li><a href="busy_base2_skin2.html">Skin 2</a></li>
+                            <li class="last"><a href="busy_base2_skin3.html">Skin 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main single-column">
+                <div class="box">
+                    <div class="inner">
+                        <p>This box is single-column, but two columns is also possible.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <div class="box">
+                    <div class="inner">
+                        <p>This section has two columns!</p>
+                        <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+                        <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+                        <p>Here's how you can add an image:</p>
+                        <img src="https://eggramen.neocities.org/neocities.png">
+                        <p>Here's how to make a list:</p>
+                        <ul>
+                            <li>First thing</li>
+                            <li>Second thing</li>
+                            <li>Third thing</li>
+                        </ul>
+                        <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="box">
+                <div class="inner">This is a footer. Base stylesheet &amp; skin by EGGRAMEN - 2021.</div>
+            </div>
+        </div>
     </div>
- 
-<p><center><b>crazy silly time</b></center> 
+   
+        <div class="snipcss-shadowcontainer"></div>
+    </div>
+    <div class="snipcss-modal snipcss-micromodal-slide" id="modal-pick-resolution"></div>
+    <div class="edge_builder2 edge_builder_top style-ZsFjZ" id="style-ZsFjZ"></div>
+    <div class="edge_builder2 edge_builder_right style-Wpb6T" id="style-Wpb6T"></div>
+    <div class="edge_builder2 edge_builder_bottom style-4pIPx" id="style-4pIPx"></div>
+    <div class="edge_builder2 edge_builder_left style-Rc1gI" id="style-Rc1gI"></div>
+    <div data-tether-id="1" id="style-9ln2o" class="style-9ln2o"></div><canvas width="70" height="70" id="snipcss-kiwi" class="style-5QpLt"></canvas>
 </div>
- 
-</body>
+
+
+<style>
+ @import url('https://fonts.googleapis.com/css?family=Readex+Pro:200,300,400,500,600,700&display=swap'); 
+@media all{ 
+  body { 
+    margin: 0;
+  } 
+
+  body { 
+    background: linear-gradient(rgb(10,5,0,0.05), rgb(10,5,0,0.1)), url("https://eggramen.neocities.org/skaiabg.png") no-repeat fixed; 
+    background-size: cover; 
+    font-family: "Readex Pro", Open Sans, sans-serif;
+  } 
+
+  .wrapper { 
+    width: 900px; 
+    margin: 0 auto;
+  } 
+
+  .sidebar { 
+    width: 200px; 
+    float: left;
+  } 
+
+  .main-wrapper { 
+    margin-left: 225px;
+  } 
+
+  .footer { 
+    margin-top: 25px;
+  } 
+
+  .footer { 
+    text-align: center;
+  } 
+
+  .footer { 
+    margin-bottom: 25px;
+  } 
+
+  .sidebar-image { 
+    border: 1px solid black;
+  } 
+
+  .box { 
+    margin-top: 25px;
+  } 
+
+  .box { 
+    border: 1px solid black; 
+    padding: 0.5em 1em;
+  } 
+
+  .box { 
+    border-radius: 1.5em 0.175em; 
+    background: rgb(10,5,0,0.85); 
+    color: white; 
+    border: 1px solid #aae6ff; 
+    padding: 0.75em 1.25em;
+  } 
+
+  .title { 
+    margin-top: 25px;
+  } 
+
+  .title { 
+    text-align: center;
+  } 
+
+  .links { 
+    margin-top: 25px;
+  } 
+
+  .links { 
+    text-align: center;
+  } 
+
+  .main { 
+    columns: 2; 
+    column-gap: 25px;
+  } 
+
+  .single-column { 
+    columns: 1;
+  } 
+
+  .main .box  { 
+    display: inline-block;
+  } 
+
+  .sidebar img  { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .sidebar-image img  { 
+    display: block;
+  } 
+
+  .sidebar-image img  { 
+    border-radius: 0.175em;
+  } 
+
+  .links ul  { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+  } 
+
+  .box img  { 
+    max-width: 100%; 
+    height: auto;
+  } 
+
+  .links li  { 
+    display: inline-block;
+  } 
+
+  .links li::before { 
+    content: "「";
+  } 
+
+  .links li::before, .links li::after { 
+    letter-spacing: 0.1em;
+  } 
+
+  a, .links li::before, .links li::after,.links .last  { 
+    color: #1896ca;
+  } 
+
+  .links li::before { 
+    content: " ";
+  } 
+
+  .links li::before, .links li::after { 
+    letter-spacing: 0.375em;
+  } 
+
+  .links li::after { 
+    content: "」 ∷ ";
+  } 
+
+  a, .links li::before, .links li::after, .links .last { 
+    color: #1896ca;
+  } 
+
+  .links li::after { 
+    content: " ⬪ ";
+  } 
+
+  .links .last::after { 
+    content: "」";
+  } 
+
+  .links .last::after { 
+    content: " ";
+  } 
+}     
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-d6YHr.style-d6YHr {  
+   top: 23px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-5SjGB.style-5SjGB {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-Q8eXL.style-Q8eXL {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-kGiZT.style-kGiZT {  
+   top: 23px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#snipcss-panel-container.style-PjvmC {  
+   right: 70px;  
+    top: 573.5px;  
+}  
+#style-SRTCS.style-SRTCS {  
+   touch-action: none;  
+}  
+#style-bqkVq.style-bqkVq {  
+   touch-action: none;  
+}  
+#style-ZsFjZ.style-ZsFjZ {  
+   top: 23px;  
+    left: 0px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-Wpb6T.style-Wpb6T {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-4pIPx.style-4pIPx {  
+   top: -4px;  
+    left: -4px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-Rc1gI.style-Rc1gI {  
+   top: 23px;  
+    left: -2px;  
+    height: 0px;  
+    width: 0px;  
+}  
+#style-9ln2o.style-9ln2o {  
+   top: 0px;  
+    left: 0px;  
+    position: absolute;  
+}  
+#snipcss-kiwi.style-5QpLt {  
+   left: 1539px;  
+    top: 0px;  
+}  
+
+</style>
